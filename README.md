@@ -21,6 +21,16 @@ Nesta live coding, vamos aprender a testar, unitariamente, uma API REST para o g
 - Desenvolvimento de testes unitários para validação de funcionalides básicas: criação, listagem, consulta por nome e exclusão de cervejas.
 - TDD: apresentação e exemplo prático em 2 funcionaliades importantes: incremento e decremento do número de cervejas no estoque.
 
+# Detalhes obtidos nas aulas
+
+- Projeto criado com Spring Boot
+- Tem arquivo porn.xml que tem todas as dependências do projeto
+- Utiliza Swager para documentar a API
+- Utiliza Lombok
+- Entity: Beer com classe e atributos, anotações do Lombok gerando automaticamente os gets and sets
+- Enums: Tem os tipos de cerveja possíveis
+- Repository: Tem o DAO - trabalha com BD e tem interface que procura cervejas por nome
+
 # Para executar o projeto
 
 - Para executar o projeto no terminal, digite o seguinte comando:
